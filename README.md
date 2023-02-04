@@ -53,7 +53,7 @@ example_menu:
 ## Permissions and commands
 | Command                    | Permission        | Description                 |
 | -------------------------- | ----------------- | --------------------------- |
-| /open <menu name> [player] | chestmenu.open    | Spying on executed commands |
+| /open [menu name] [player] | chestmenu.open    | Spying on executed commands |
 | Menu command               | chestmenu.menu.<menu name>| Permission to open a specific menu |
 
 
