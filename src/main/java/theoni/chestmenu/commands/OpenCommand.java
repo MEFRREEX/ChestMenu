@@ -29,7 +29,7 @@ public class OpenCommand extends Command {
         });
 
         this.main = main;
-        this.menu = new Config(main.getDataFolder() + "/menu.yml", Config.YAML);
+        this.menu = main.getMenu();
     }
 
     @Override

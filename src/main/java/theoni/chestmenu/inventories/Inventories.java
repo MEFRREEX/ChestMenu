@@ -18,7 +18,7 @@ public class Inventories {
 
     public Inventories(ChestMenu main) {
         this.main = main;
-        this.menu = new Config(main.getDataFolder() + "/menu.yml", Config.YAML);
+        this.menu = main.getMenu();
     }
 
     public void openInventory(Player player, String invName) {
