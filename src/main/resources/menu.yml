@@ -1,0 +1,54 @@
+example_menu:
+  # Command to open a menu
+  command:
+    name: "example"
+    description: "Open example menu"
+    requirePermission: true
+  # 1 - CHEST, 2 - DOUBLE_CHEST, 3 - HOPPER, 4 - DROPPER
+  chestType: 1
+  name: "Example Menu"
+  items:
+    "12":
+      # id:meta
+      item: "267:0"
+      name: "Item Name"
+      lore:
+        - "§fLine 1"
+        - "§fLine 2"
+      # sender:command
+      # Types of senders: player, console
+      # Placeholders: {player}, {item_index}, {item_name}
+      # Example: "console:say Test"
+      commands:
+        - "player:say Test command, executed by {player}"
+      # type:name
+      # Types: open, message, sound
+      # Example: "open:example_menu_1"
+      actions:
+        - "open:example_menu"
+        - "message:Example message"
+        - "sound:random.pop"
+      closeOnClick: false
+
+    "13":
+      item: "283:0"
+      name: "Menu"
+      lore:
+        - "§fClick to open the menu"
+        - "§f\"example_menu_1\""
+      commands: []
+      actions:
+        - "message:The menu was opened."
+        - "open:example_menu"
+        - "sound:random.pop"
+      closeOnClick: true
+
+    "14":
+      item: "276:0"
+      name: "Item Info"
+      lore: []
+      commands: []
+      actions:
+        - "message:Item index {item_index}, Item name {item_name}"
+        - "sound:random.pop"
+      closeOnClick: true
