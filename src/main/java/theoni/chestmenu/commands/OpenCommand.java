@@ -20,6 +20,7 @@ public class OpenCommand extends Command {
     public OpenCommand(ChestMenu main) {
         super("open");
         this.setDescription("Open menu");
+        this.setPermission("chestmenu.open");
 
         commandParameters.clear();
         commandParameters.put("default", new CommandParameter[] {

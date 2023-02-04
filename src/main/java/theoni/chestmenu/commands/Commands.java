@@ -20,7 +20,7 @@ public class Commands {
 
                 @Override
                 public boolean execute(CommandSender sender, String commandLabel, String[] args) {
-                    if (!sender.hasPermission("chestmenu." + section) && requirePermission) {
+                    if (!sender.hasPermission("chestmenu.menu." + section) && requirePermission) {
                         sender.sendMessage("§l§c>§r§f You don't have permission.");
                         return false;
                     }
