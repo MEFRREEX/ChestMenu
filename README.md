@@ -54,7 +54,7 @@ example_menu:
 | Command                    | Permission        | Description                 |
 | -------------------------- | ----------------- | --------------------------- |
 | /open [menu name] [player] | chestmenu.open    | Spying on executed commands |
-| Menu command               | chestmenu.menu.<menu name>| Permission to open a specific menu |
+| Menu command               | chestmenu.menu.[menu name]| Permission to open a specific menu |
 
 
 ## Chest slots ID
