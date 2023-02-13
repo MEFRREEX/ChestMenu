@@ -29,6 +29,8 @@ public class ChestMenu extends PluginBase {
 
         this.getServer().getCommandMap().register("ChestMenu", new OpenCommand(this));
         new Commands().register(this, menu);
+        
+        this.metrics();
     }
 
     public void metrics() {
