@@ -58,6 +58,4 @@ example_menu:
 
 
 ## Chest slots ID
-With a dispenser and a hopper along the same principle
-![image](https://user-images.githubusercontent.com/83061703/216740394-5765dfb2-4dff-4206-932b-1a43a0c98667.png)
-![image](https://user-images.githubusercontent.com/83061703/216740406-d1a51f4e-58a6-4cc4-aafd-bdf24be07fd6.png)
+![image](https://user-images.githubusercontent.com/83061703/229202490-38cdda8e-9ea3-4818-a653-f2b5e7f51f11.png)
