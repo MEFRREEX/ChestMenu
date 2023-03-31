@@ -18,13 +18,14 @@ public class ChestMenu extends PluginBase {
     public void onLoad() {
         this.saveDefaultConfig();
         this.saveResource("menu.yml");
+        this.menu = new Config(this.getDataFolder() + "/menu.yml", Config.YAML);
     }
 
+    @Override
     public void onEnable() {
         instance = this;
 
         this.inventories = new Inventories(this);
-        this.menu = new Config(this.getDataFolder() + "/menu.yml", Config.YAML);
 
 
         this.getServer().getCommandMap().register("ChestMenu", new OpenCommand(this));

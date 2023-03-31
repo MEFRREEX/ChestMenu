@@ -1,16 +1,16 @@
 package theoni.chestmenu.commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.command.data.CommandEnum;
 import cn.nukkit.command.data.CommandParamType;
 import cn.nukkit.command.data.CommandParameter;
-import cn.nukkit.utils.Config;
 import theoni.chestmenu.ChestMenu;
+import cn.nukkit.utils.Config;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class OpenCommand extends Command {
 
