@@ -1,6 +1,9 @@
 # ChestMenu
 With this plugin you can create menu interfaces in the chest
 
+> [!WARNING]
+> This plugin is obsolete and is no longer supported. Better and more functional alternative:  
+> https://github.com/MEFRREEX/ChestCreator
 
 ## Dependency
 
